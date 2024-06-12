@@ -1,5 +1,5 @@
 # FROM specify the underlying operating system you will use to build the image
-FROM python:3-alpine3.15
+FROM python:3-alpine3.15 as djangonv
 
 # WORKDIR set the default working directory
 WORKDIR /app
